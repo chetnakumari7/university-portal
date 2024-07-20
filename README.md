@@ -1,2 +1,3 @@
 # university-portal
 i developed university portal system for frontend development
+I developed a university portal using HTML, CSS, and JavaScript to streamline communication and resource sharing among students, faculty, and administrative staff. Key features include user authentication, a user-friendly dashboard, course management, announcements, and a document repository. HTML structured the web pages, CSS ensured a responsive design, and JavaScript handled client-side interactions. Challenges like responsive design and secure authentication were addressed with CSS media queries and JavaScript validations. The portal improved resource accessibility and communication within the university, and future enhancements

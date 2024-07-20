@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="html111.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@800&family=Montserrat:wght@500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="su.png"</a>
+            <div class="nav-links" id="hideMenu">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+                <ul>
+                    <li><a href="index111.html">HOME</a></li>
+                    <li><a href="index111 - about.html">ABOUT</a></li>
+                    <li><a href="index111courses.html">COURSE</a></li>
+                    <li><a href="index111block.html">BLOG</a></li>
+                    <li><a href="index111contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+       <h1>Contact Us</h1>
+    </section>
+
+    <!--------contact us----->
+    <section class="contact-us">
+        <div class="row">
+            <div class="contact-col">
+                <div> 
+                    <i class="fa-solid fa-house"></i>
+                    <span>
+                        <h5>INDUSTRIAL AREA, DEFENCE ROAD</h5>
+                        <p>INDIA </p>
+                    </span>
+            </div>
+            
+            <div>
+            <i class="fa-solid fa-phone"></i>
+            <span>
+                <h5>+1 2756700</h5>
+                <p>Monday To Friday, 10AM to 6PM</p>
+            </span>
+            </div>
+            <div class="fa-solid fa-envelope">
+                <span>
+                    <h5>LOVEENA@gmail.com</h5> <br>
+                    <h5>CHETNA@gmail.com</h5>
+                    <p>Email Us Your Query</p>
+                </span>
+            </div>
+            
+        </div>
+            <div class="contact-col">
+                <form action="">
+                    <input type="text" placeholder="Enter Your Name" required>
+                    <input type="Email" placeholder="Enter Your Email address" required>
+                    <input type="text" placeholder="Enter Your Subject" required>
+                    <textarea rows="8" placeholder="Message" required></textarea>
+                    <button type="submit" class="hero-btn red-btn">Send Message</button>
+                </form>
+
+        </div>
+        </div>
+
+    </section>
+    
+
+
+<!-- footer-->
+
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+        Placeat magni praesentium vommml <br> well we know that this collegede is the worlds best college and thanku for vsising
+    </p>
+        <div class="icons">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-twitter"></i>
+        </div>
+        <p>Made by Loveena and Chetna</p>
+</section>
+
+
+
+
+<script>
+        var navLinks = document.getElementById("navLinks");
+        function showMenu(){
+            navLinks.style.right ="0";
+
+        }
+        function hideMenu(){
+            navLinks.study.right="-200px";
+        }
+
+    </script>
+</body>
+</html>
